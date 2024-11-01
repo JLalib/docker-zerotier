@@ -1,4 +1,4 @@
-# ZeroTier como contenedor en Docker
+# ZeroTier | La VPN sin PortForwarding
 
 ZeroTier es una superposición de red segura que le permite administrar todos los recursos de su red como si estuvieran en la misma LAN. ZeroTier está hecho para gente "normal" que no tiene ni idea de como funciona una VPN o simplemente, alguien como nosotros, que quiere algo que funcione en 5 minutos y simplemente, que funcione.
 
