@@ -48,9 +48,9 @@ ip link show
 
 Establecer las variables de Network y WAN
 
-export ZT_IF=
+export ZT_IF=NOMBRE_INTERFAZ_ZEROTIER
 
-export WAN_IF=
+export WAN_IF=NOMBRE_INTERFAZ_WAN
 
 Habilitar NAT y enmascaramiento de IP:
 
