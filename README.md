@@ -9,7 +9,7 @@ Instalas en todas las máquinas que deseas tener bajo esta nueva subred, ZeroTie
 El servidor de ZeroTier, que no está en nuestra máquina, está en sus servidores y es la que nos ha dado el Network ID, igual que sucede con servicios como Syncthing o Plex, conecta todos aquellos clientes que tiene en mismo Network ID y estén online, conectados a internet en ese momento.
 El servidor central de ZeroTier, localiza las ip's de todos los dispositivos que están conectados a internet, gracias a la app de ZeroTier y los conecta creando una red.
 
-El tráfico va totalmente cifrado de extremo a extremo. Tal como comenta Mc Josan en su vídeo, los servidores de ZeroTier, única y exclusivamente, se encargan de localizar y conectar los clientes, no pasan los datos por sus servidores. Si eso es así, la verdad es que este servicio es alucinante.
+El tráfico va totalmente cifrado de extremo a extremo. Los servidores de ZeroTier, única y exclusivamente, se encargan de localizar y conectar los clientes, no pasan los datos por sus servidores. Si eso es así, la verdad es que este servicio es alucinante.
 
 Otro punto fuerte de ZeroTier, es que podemos instalarlo en todos los dispositivos. Windows, Linux, Mac, Android, IOS, Raspberry, placa con arquitectura ARM, etc.
 ### Pasos configuración básica ZeroTier
@@ -32,7 +32,7 @@ Seguir los pasos para añadir nuestro nodo a una red Zerotier:
 El proceso en un único comando desde tu host: docker exec -it zerotier-one zerotier-cli join ID_NETWORK
 
 ## Exit Node
-Para configurar "Exit Node", es decir, slair a Internet con la misma IP que nuestro nodo/servidor principal, debemos añadir ciertas reglas;
+Para configurar "Exit Node", es decir, salir a Internet con la misma IP que nuestro nodo/servidor principal, debemos añadir ciertas reglas;
 
 sudo nano /etc/sysctl.conf
 
