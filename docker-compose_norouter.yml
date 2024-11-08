@@ -1,7 +1,7 @@
 services:
   zerotier:
     image: zyclonite/zerotier
-    container_name: zerotier-one
+    container_name: zerotier
     devices:
       - /dev/net/tun
     network_mode: host
